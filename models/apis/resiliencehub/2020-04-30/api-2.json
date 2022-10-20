@@ -904,8 +904,7 @@
         "creationTime":{"shape":"TimeStamp"},
         "description":{"shape":"EntityDescription"},
         "name":{"shape":"EntityName"},
-        "resiliencyScore":{"shape":"Double"},
-        "status":{"shape":"AppStatusType"}
+        "resiliencyScore":{"shape":"Double"}
       }
     },
     "AppSummaryList":{
@@ -914,7 +913,7 @@
     },
     "AppTemplateBody":{
       "type":"string",
-      "max":204800,
+      "max":51200,
       "min":0,
       "pattern":"^[\\w\\s:,-\\.'{}\\[\\]:\"]+$"
     },
@@ -1037,8 +1036,7 @@
         "LeastChange",
         "BestAZRecovery",
         "LeastErrors",
-        "BestAttainable",
-        "BestRegionRecovery"
+        "BestAttainable"
       ]
     },
     "ConflictException":{
